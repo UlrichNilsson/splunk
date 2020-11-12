@@ -1,5 +1,13 @@
 # Repository for Splunk examples
 
+## Deploy stack
+
+docker stack deploy -c ./docker-compose.yml splunk-local
+
+## Validate config
+
+`docker-compose -f docker-compose.yml config`
+
 ## Spin up a docker container to experiment with splunk stuff
 
 <https://hub.docker.com/r/splunk/splunk>
